@@ -4,6 +4,7 @@ entrypoint: flask run
 
 env_variables:
   FLASK_APP: "main"
+  ENV: "development"
 
 runtime_config:
   python_version: 3
